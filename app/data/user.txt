@@ -1,0 +1,11 @@
+create table user(
+id int auto_increment primary key,
+name varchar(30),
+email varchar(30),
+password varchar(20),
+phone varchar(20),
+address varchar(50)
+);
+
+insert into user(name,email,password,phone,address)
+values('홍길동','test@test.com','voca1234','010-1111-1111','서울시 강남구 역삼동');
